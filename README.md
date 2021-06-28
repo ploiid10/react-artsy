@@ -8,7 +8,7 @@ create `.env` file and add the following values
 
 - `REACT_APP_ARTSY_AUTH_ID` = `x-user-id`
 - `REACT_APP_ARTSY_AUTH_TOKEN` = `x-access-token`
-
+- Install the dependencies by running `yarn` or `npm run install`
 
 
 # Getting Started with Create React App
