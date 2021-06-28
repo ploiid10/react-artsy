@@ -1,3 +1,16 @@
+### Setup Before running
+You will need to set up headers with both:
+
+- `x-access-token` - Open https://staging.artsy.net, sign in and evaluate `sd.CURRENT_USER.accessToken` in a dev console _(CMD+Shift+C in Chrome)_.
+- `x-user-id` - As above, but `sd.CURRENT_USER.id`.
+
+create `.env` file and add the following values
+
+- `REACT_APP_ARTSY_AUTH_ID` = `x-user-id`
+- `REACT_APP_ARTSY_AUTH_TOKEN` = `x-access-token`
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,7 +18,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
+The setup is from https://github.com/artsy/metaphysics README
 ### `yarn start`
 
 Runs the app in the development mode.\
