@@ -1,8 +1,8 @@
 ### Setup Before running
 You will need to set up headers with both:
-
-- `x-access-token` - Open https://staging.artsy.net, sign in and evaluate `sd.CURRENT_USER.accessToken` in a dev console _(CMD+Shift+C in Chrome)_.
-- `x-user-id` - As above, but `sd.CURRENT_USER.id`.
+Open https://staging.artsy.net, sign in and evaluate in a dev console _(CMD+Shift+C in Chrome)_
+- `x-access-token`
+- `x-user-id`
 
 create `.env` file and add the following values
 
