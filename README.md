@@ -1,5 +1,5 @@
 ### Setup Before running
-You will need to set up headers with both:
+This project uses the graphql endpoint https://metaphysics-staging.artsy.net/v2. You will need to set up headers with both:
 Open https://staging.artsy.net, sign in and evaluate in a dev console _(CMD+Shift+C in Chrome)_
 - `x-access-token`
 - `x-user-id`
